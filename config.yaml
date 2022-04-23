@@ -1,0 +1,4 @@
+configurationset:
+- configuration:
+      name: owmreport_config
+      appid: <owm api key goes here>

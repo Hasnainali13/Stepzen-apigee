@@ -1,0 +1,12 @@
+schema @sdl(files: [
+  ## The Customers schema 
+  "customers/customer.graphql",
+  
+   ## The Weather schema 
+  "weather/weather.graphql",
+
+   ## Extensions
+   "extensions/extensions.graphql"
+]) {
+  query: Query
+}
